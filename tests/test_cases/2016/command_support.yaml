@@ -18,7 +18,7 @@ supported_commands_by_ecu:
   - 011F:RUNTM
   - 0121:MIL_DIST
   - 0123:FRP
-  - 0124:LAMBDA11_WIDE,O2S11_WIDE
+  - 0124:LAMBDA11_VOLT,O2S11_VOLT
   - 012C:EGR_PCT
   - 012D:EGR_ERR
   - 0130:WARM_UPS
@@ -36,6 +36,7 @@ supported_commands_by_ecu:
   - 014F:MAX_EQ_RAT,MAX_MAP,MAX_O2_CURR,MAX_O2_VOLT
   - 015C:EOT
   - 7E0.010D:VSS
+  - 7E0.0131:CLR_DIST
 unsupported_commands_by_ecu:
   "743":
   - 743.220207:RENAULT_ODO
