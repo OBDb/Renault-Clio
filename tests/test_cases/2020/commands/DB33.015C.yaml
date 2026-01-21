@@ -1,5 +1,17 @@
 command_id: DB33.015C
 test_cases:
 - expected_values:
+    EOT: 13
+  response: 18DAF11503415C35
+- expected_values:
+    EOT: 24
+  response: 18DAF11503415C40
+- expected_values:
+    EOT: 39
+  response: 18DAF11503415C4F
+- expected_values:
+    EOT: 46
+  response: 18DAF11503415C56
+- expected_values:
     EOT: 80
   response: 18DAF11503415C78
