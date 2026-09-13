@@ -1,0 +1,5 @@
+command_id: 740.760.224B39|fc=1
+test_cases:
+- expected_values:
+    RENAULT_P_SNS_OFFSET: 123
+  response: 76004624B397B
