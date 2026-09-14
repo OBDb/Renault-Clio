@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.222416
+test_cases:
+- expected_values:
+    RENAULT_THROTTLE_POS_2: 11.95
+  response: 7E80562241600EF
+- expected_values:
+    RENAULT_THROTTLE_POS_2: 12.7
+  response: 7E80562241600FE
+- expected_values:
+    RENAULT_THROTTLE_POS_2: 12.9
+  response: '7E8056224160102'
+- expected_values:
+    RENAULT_THROTTLE_POS_2: 13
+  response: '7E8056224160104'
+- expected_values:
+    RENAULT_THROTTLE_POS_2: 13.25
+  response: '7E8056224160109'
+- expected_values:
+    RENAULT_THROTTLE_POS_2: 13.8
+  response: '7E8056224160114'
+- expected_values:
+    RENAULT_THROTTLE_POS_2: 13.85
+  response: '7E8056224160115'
