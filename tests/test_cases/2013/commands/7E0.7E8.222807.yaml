@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.222807
+test_cases:
+- expected_values:
+    RENAULT_IGN_TIMING_ADV: 37
+  response: '7E80462280725'
+- expected_values:
+    RENAULT_IGN_TIMING_ADV: 58
+  response: 7E8046228073A
+- expected_values:
+    RENAULT_IGN_TIMING_ADV: 68
+  response: '7E80462280744'
+- expected_values:
+    RENAULT_IGN_TIMING_ADV: 72
+  response: '7E80462280748'
+- expected_values:
+    RENAULT_IGN_TIMING_ADV: 73
+  response: '7E80462280749'
+- expected_values:
+    RENAULT_IGN_TIMING_ADV: 76
+  response: 7E8046228074C
+- expected_values:
+    RENAULT_IGN_TIMING_ADV: 85
+  response: '7E80462280755'
