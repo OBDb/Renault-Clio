@@ -1,0 +1,5 @@
+command_id: 740.760.224B24|fc=1
+test_cases:
+- expected_values:
+    RENAULT_SPEEDO_IDX: 1891
+  response: 76005624B240763
