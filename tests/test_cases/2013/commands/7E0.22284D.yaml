@@ -1,0 +1,20 @@
+command_id: 7E0.22284D
+test_cases:
+- expected_values:
+    RENAULT_KNOCK_AVG: 5
+  response: 7E80462284D05
+- expected_values:
+    RENAULT_KNOCK_AVG: 6
+  response: 7E80462284D06
+- expected_values:
+    RENAULT_KNOCK_AVG: 7
+  response: 7E80462284D07
+- expected_values:
+    RENAULT_KNOCK_AVG: 9
+  response: 7E80462284D09
+- expected_values:
+    RENAULT_KNOCK_AVG: 10
+  response: 7E80462284D0A
+- expected_values:
+    RENAULT_KNOCK_AVG: 13
+  response: 7E80462284D0D

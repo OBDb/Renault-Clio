@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22244C
+test_cases:
+- expected_values:
+    RENAULT_O2_DN_HEAT_R: 14.5098
+  response: 7E80462244C25
+- expected_values:
+    RENAULT_O2_DN_HEAT_R: 15.29412
+  response: 7E80462244C27
+- expected_values:
+    RENAULT_O2_DN_HEAT_R: 19.21569
+  response: 7E80462244C31
+- expected_values:
+    RENAULT_O2_DN_HEAT_R: 21.17647
+  response: 7E80462244C36
