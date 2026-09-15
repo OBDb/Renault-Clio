@@ -1,0 +1,5 @@
+command_id: 7E0.222881
+test_cases:
+- expected_values:
+    RENAULT_FLI_EST: 0
+  response: '7E8056228810000'

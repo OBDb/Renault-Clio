@@ -1,0 +1,5 @@
+command_id: 740.760.224B06|fc=1
+test_cases:
+- expected_values:
+    RENAULT_ODO_V2: 18671070
+  response: 76007624B06011CE5DE

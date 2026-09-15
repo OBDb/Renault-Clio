@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22FD8B
+test_cases:
+- expected_values:
+    RENAULT_COOLANT_T_SNS_V: 0.4126
+  response: 7E80562FD8B069A
+- expected_values:
+    RENAULT_COOLANT_T_SNS_V: 0.43213
+  response: 7E80562FD8B06EA
+- expected_values:
+    RENAULT_COOLANT_T_SNS_V: 0.45459
+  response: 7E80562FD8B0746
+- expected_values:
+    RENAULT_COOLANT_T_SNS_V: 0.49268
+  response: 7E80562FD8B07E2
+- expected_values:
+    RENAULT_COOLANT_T_SNS_V: 0.50732
+  response: 7E80562FD8B081E
+- expected_values:
+    RENAULT_COOLANT_T_SNS_V: 0.53296
+  response: 7E80562FD8B0887
+- expected_values:
+    RENAULT_COOLANT_T_SNS_V: 0.56494
+  response: 7E80562FD8B090A
