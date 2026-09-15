@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.222449
+test_cases:
+- expected_values:
+    RENAULT_O2_UP_V: 84
+  response: '7E8056224490054'
+- expected_values:
+    RENAULT_O2_UP_V: 87
+  response: '7E8056224490057'
+- expected_values:
+    RENAULT_O2_UP_V: 151
+  response: '7E8056224490097'
+- expected_values:
+    RENAULT_O2_UP_V: 194
+  response: 7E80562244900C2
+- expected_values:
+    RENAULT_O2_UP_V: 349
+  response: 7E805622449015D
+- expected_values:
+    RENAULT_O2_UP_V: 664
+  response: '7E8056224490298'
+- expected_values:
+    RENAULT_O2_UP_V: 714
+  response: 7E80562244902CA

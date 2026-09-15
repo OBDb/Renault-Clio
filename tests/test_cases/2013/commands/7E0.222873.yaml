@@ -1,0 +1,5 @@
+command_id: 7E0.222873
+test_cases:
+- expected_values:
+    RENAULT_RICHNESS_ADAPT: 39240
+  response: '7E8056228739948'
