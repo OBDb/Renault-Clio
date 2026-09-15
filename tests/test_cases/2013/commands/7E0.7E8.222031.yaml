@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.222031
+test_cases:
+- expected_values:
+    RENAULT_IN_CAM_DEPHASING: 0.2
+  response: 7E805622031000A
+- expected_values:
+    RENAULT_IN_CAM_DEPHASING: 0.4
+  response: '7E8056220310014'
+- expected_values:
+    RENAULT_IN_CAM_DEPHASING: 0.46
+  response: '7E8056220310017'
+- expected_values:
+    RENAULT_IN_CAM_DEPHASING: 0.56
+  response: 7E805622031001C
+- expected_values:
+    RENAULT_IN_CAM_DEPHASING: 0.6
+  response: 7E805622031001E
+- expected_values:
+    RENAULT_IN_CAM_DEPHASING: 0.66
+  response: '7E8056220310021'

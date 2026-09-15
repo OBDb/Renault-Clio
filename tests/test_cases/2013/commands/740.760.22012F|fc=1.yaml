@@ -1,0 +1,20 @@
+command_id: 740.760.22012F|fc=1
+test_cases:
+- expected_values:
+    RENAULT_ECU_V: 117
+  response: 7600462012F75
+- expected_values:
+    RENAULT_ECU_V: 132
+  response: 7600462012F84
+- expected_values:
+    RENAULT_ECU_V: 139
+  response: 7600462012F8B
+- expected_values:
+    RENAULT_ECU_V: 140
+  response: 7600462012F8C
+- expected_values:
+    RENAULT_ECU_V: 141
+  response: 7600462012F8D
+- expected_values:
+    RENAULT_ECU_V: 142
+  response: 7600462012F8E
