@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222010
+test_cases:
+- expected_values:
+    RENAULT_MOTOR: 48
+  response: '7E80462201030'
