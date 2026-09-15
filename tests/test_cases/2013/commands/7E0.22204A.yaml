@@ -1,0 +1,8 @@
+command_id: 7E0.22204A
+test_cases:
+- expected_values:
+    RENAULT_FAN_HI_SPD: 0
+  response: 7E80462204A00
+- expected_values:
+    RENAULT_FAN_HI_SPD: 68
+  response: 7E80462204A44
