@@ -1,0 +1,5 @@
+command_id: 7E0.2228B1
+test_cases:
+- expected_values:
+    RENAULT_GAS_T: 0
+  response: 7E8056228B10AAA

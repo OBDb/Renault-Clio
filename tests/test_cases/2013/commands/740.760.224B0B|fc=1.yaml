@@ -1,0 +1,8 @@
+command_id: 740.760.224B0B|fc=1
+test_cases:
+- expected_values:
+    RENAULT_ACCEL_LAT: 125
+  response: 76004624B0B7D
+- expected_values:
+    RENAULT_ACCEL_LAT: 126
+  response: 76004624B0B7E
