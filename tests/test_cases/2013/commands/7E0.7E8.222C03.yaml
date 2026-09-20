@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222C03
+test_cases:
+- expected_values:
+    RENAULT_GEARBOX_RATIO_TGT: 1
+  response: 7E804622C0301
