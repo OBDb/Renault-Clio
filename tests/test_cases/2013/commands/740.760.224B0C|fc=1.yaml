@@ -1,0 +1,8 @@
+command_id: 740.760.224B0C|fc=1
+test_cases:
+- expected_values:
+    RENAULT_YAW: 32766
+  response: 76005624B0C7FFE
+- expected_values:
+    RENAULT_YAW: 32767
+  response: 76005624B0C7FFF

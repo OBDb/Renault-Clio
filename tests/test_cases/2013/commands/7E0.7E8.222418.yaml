@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.222418
+test_cases:
+- expected_values:
+    RENAULT_THROTTLE_V1: 0.588
+  response: 7E805622418024C
+- expected_values:
+    RENAULT_THROTTLE_V1: 0.622
+  response: 7E805622418026E
+- expected_values:
+    RENAULT_THROTTLE_V1: 0.627
+  response: '7E8056224180273'
+- expected_values:
+    RENAULT_THROTTLE_V1: 0.631
+  response: '7E8056224180277'
+- expected_values:
+    RENAULT_THROTTLE_V1: 0.642
+  response: '7E8056224180282'
+- expected_values:
+    RENAULT_THROTTLE_V1: 0.67
+  response: 7E805622418029E
+- expected_values:
+    RENAULT_THROTTLE_V1: 0.671
+  response: 7E805622418029F
