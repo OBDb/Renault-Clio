@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222007
+test_cases:
+- expected_values:
+    RENAULT_EST_OIL_T: 18.3
+  response: 7E8056220070B61
+- expected_values:
+    RENAULT_EST_OIL_T: 18.5
+  response: 7E8056220070B63
+- expected_values:
+    RENAULT_EST_OIL_T: 22.1
+  response: 7E8056220070B87
