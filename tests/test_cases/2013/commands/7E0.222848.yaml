@@ -1,0 +1,5 @@
+command_id: 7E0.222848
+test_cases:
+- expected_values:
+    RENAULT_CYL2_KNOCK: 8682
+  response: 7E80562284821EA
