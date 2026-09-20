@@ -1,0 +1,5 @@
+command_id: 740.760.224B04|fc=1
+test_cases:
+- expected_values:
+    RENAULT_VSS_740: 0
+  response: 76005624B040000

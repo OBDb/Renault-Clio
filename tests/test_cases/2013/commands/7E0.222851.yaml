@@ -1,0 +1,5 @@
+command_id: 7E0.222851
+test_cases:
+- expected_values:
+    RENAULT_RICHNESS_REG_GAIN: 140
+  response: 7E8046228518C

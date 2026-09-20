@@ -1,0 +1,5 @@
+command_id: 740.760.224B1A|fc=1
+test_cases:
+- expected_values:
+    RENAULT_VEH: 7
+  response: 76004624B1A07
