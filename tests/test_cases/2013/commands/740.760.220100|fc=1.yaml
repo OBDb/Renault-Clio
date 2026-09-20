@@ -1,0 +1,14 @@
+command_id: 740.760.220100|fc=1
+test_cases:
+- expected_values:
+    RENAULT_STEER_ANGLE: 32775
+  response: '760056201008007'
+- expected_values:
+    RENAULT_STEER_ANGLE: 32781
+  response: 76005620100800D
+- expected_values:
+    RENAULT_STEER_ANGLE: 32789
+  response: '760056201008015'
+- expected_values:
+    RENAULT_STEER_ANGLE: 32790
+  response: '760056201008016'

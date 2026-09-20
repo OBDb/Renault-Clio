@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222030
+test_cases:
+- expected_values:
+    RENAULT_IN_CAM_DEPHASER_SETPT: 0
+  response: '7E8056220300000'
