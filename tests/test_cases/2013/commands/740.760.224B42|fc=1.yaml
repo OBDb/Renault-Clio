@@ -1,0 +1,5 @@
+command_id: 740.760.224B42|fc=1
+test_cases:
+- expected_values:
+    RENAULT_STEER_SPD: 32768
+  response: 76005624B428000
