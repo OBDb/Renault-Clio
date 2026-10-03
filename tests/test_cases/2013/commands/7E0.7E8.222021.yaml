@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222021
+test_cases:
+- expected_values:
+    RENAULT_SNS_FEED_V1: 5.007
+  response: 7E805622021138F
+- expected_values:
+    RENAULT_SNS_FEED_V1: 5.009
+  response: '7E8056220211391'

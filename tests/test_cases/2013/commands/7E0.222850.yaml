@@ -1,0 +1,29 @@
+command_id: 7E0.222850
+test_cases:
+- expected_values:
+    RENAULT_RICHNESS_CORR_OP: 32941
+  response: 7E80562285080AD
+- expected_values:
+    RENAULT_RICHNESS_CORR_OP: 33497
+  response: 7E80562285082D9
+- expected_values:
+    RENAULT_RICHNESS_CORR_OP: 35026
+  response: 7E80562285088D2
+- expected_values:
+    RENAULT_RICHNESS_CORR_OP: 35325
+  response: 7E80562285089FD
+- expected_values:
+    RENAULT_RICHNESS_CORR_OP: 35679
+  response: 7E8056228508B5F
+- expected_values:
+    RENAULT_RICHNESS_CORR_OP: 36949
+  response: '7E8056228509055'
+- expected_values:
+    RENAULT_RICHNESS_CORR_OP: 37053
+  response: 7E80562285090BD
+- expected_values:
+    RENAULT_RICHNESS_CORR_OP: 37716
+  response: '7E8056228509354'
+- expected_values:
+    RENAULT_RICHNESS_CORR_OP: 38548
+  response: '7E8056228509694'
