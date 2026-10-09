@@ -1,0 +1,8 @@
+command_id: 744.764.2243A5
+test_cases:
+- expected_values:
+    RENAULT_COND_T_SET: 71.17773
+  response: 764056243A5DE5B
+- expected_values:
+    RENAULT_COND_T_SET: 79.41211
+  response: 764056243A5EED3

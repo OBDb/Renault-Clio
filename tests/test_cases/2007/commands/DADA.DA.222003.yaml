@@ -1,0 +1,5 @@
+command_id: DADA.DA.222003
+test_cases:
+- expected_values:
+    RENAULT_VSS_V2: 0
+  response: 18DAF1DA056220030000

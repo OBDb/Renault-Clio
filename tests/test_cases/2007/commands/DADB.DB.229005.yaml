@@ -1,0 +1,5 @@
+command_id: DADB.DB.229005
+test_cases:
+- expected_values:
+    RENAULT_HV_V: 246.7
+  response: 18DAF1DB0562900509A3

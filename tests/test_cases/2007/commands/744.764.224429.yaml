@@ -1,0 +1,8 @@
+command_id: 744.764.224429
+test_cases:
+- expected_values:
+    RENAULT_COND_T: 29.03906
+  response: 76405624429450A
+- expected_values:
+    RENAULT_COND_T: 43.24609
+  response: 76405624429533F

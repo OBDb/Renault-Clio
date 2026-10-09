@@ -1,0 +1,5 @@
+command_id: DADA.DA.223042
+test_cases:
+- expected_values:
+    RENAULT_HV_A_3042: -15150.25
+  response: 18DAF1DA0562304209A3

@@ -1,0 +1,5 @@
+command_id: DADB.DB.229018
+test_cases:
+- expected_values:
+    RENAULT_CHG_P_MAX: 0
+  response: 18DAF1DB056290180000

@@ -1,0 +1,5 @@
+command_id: DADB.DB.2291C8
+test_cases:
+- expected_values:
+    RENAULT_HV_E_AVAIL: 0.27
+  response: 18DAF1DB066291C800010E

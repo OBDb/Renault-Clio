@@ -1,0 +1,5 @@
+command_id: DADA.DA.222006
+test_cases:
+- expected_values:
+    RENAULT_ODO_V3: 31178
+  response: 18DAF1DA066220060079CA

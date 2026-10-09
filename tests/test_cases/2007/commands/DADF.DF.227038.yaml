@@ -1,0 +1,5 @@
+command_id: DADF.DF.227038
+test_cases:
+- expected_values:
+    RENAULT_ROTOR_T_RAW: 0
+  response: 18DAF1DF056270381400

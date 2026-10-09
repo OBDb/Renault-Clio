@@ -1,0 +1,8 @@
+command_id: 744.764.224009
+test_cases:
+- expected_values:
+    RENAULT_CABIN_T: 20
+  response: '764056240090258'
+- expected_values:
+    RENAULT_CABIN_T: 20.1
+  response: '764056240090259'

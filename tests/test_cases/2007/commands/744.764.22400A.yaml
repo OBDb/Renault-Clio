@@ -1,0 +1,8 @@
+command_id: 744.764.22400A
+test_cases:
+- expected_values:
+    RENAULT_EVAP_T: 25.5
+  response: 7640562400A028F
+- expected_values:
+    RENAULT_EVAP_T: 25.8
+  response: 7640562400A0292

@@ -1,0 +1,5 @@
+command_id: DADB.DB.229132
+test_cases:
+- expected_values:
+    RENAULT_PACK_T2: 18
+  response: 18DAF1DB0562913203A0
