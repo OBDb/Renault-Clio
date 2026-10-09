@@ -1,0 +1,5 @@
+command_id: DADB.DB.229247
+test_cases:
+- expected_values:
+    RENAULT_E_REGEN: 0
+  response: 18DAF1DB0762924700000000

@@ -1,0 +1,5 @@
+command_id: DADB.DB.229003
+test_cases:
+- expected_values:
+    RENAULT_SOH: 94.97
+  response: 18DAF1DB056290032519

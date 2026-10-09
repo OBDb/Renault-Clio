@@ -1,0 +1,5 @@
+command_id: 744.764.22440D
+test_cases:
+- expected_values:
+    RENAULT_COMP_SUC_T: 481.5
+  response: 7640562440D03FF

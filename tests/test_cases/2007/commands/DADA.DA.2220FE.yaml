@@ -1,0 +1,5 @@
+command_id: DADA.DA.2220FE
+test_cases:
+- expected_values:
+    RENAULT_HV_V_EVC: 246.7
+  response: 18DAF1DA056220FE09A3

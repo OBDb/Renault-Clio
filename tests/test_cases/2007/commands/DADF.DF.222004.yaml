@@ -1,0 +1,5 @@
+command_id: DADF.DF.222004
+test_cases:
+- expected_values:
+    RENAULT_INV_HV_V: 247.34375
+  response: 18DAF1DF056220041EEB

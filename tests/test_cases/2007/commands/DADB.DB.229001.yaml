@@ -1,0 +1,5 @@
+command_id: DADB.DB.229001
+test_cases:
+- expected_values:
+    RENAULT_SOC_9001: 53.58
+  response: 18DAF1DB0562900114EE

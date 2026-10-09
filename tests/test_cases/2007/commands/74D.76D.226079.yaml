@@ -1,0 +1,5 @@
+command_id: 74D.76D.226079
+test_cases:
+- expected_values:
+    RENAULT_12V_A: 14
+  response: 76D05626079008C

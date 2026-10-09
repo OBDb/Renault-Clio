@@ -1,0 +1,5 @@
+command_id: DADA.DA.222218
+test_cases:
+- expected_values:
+    RENAULT_AAT: 16.5
+  response: 18DAF1DA056222180B4F

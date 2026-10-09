@@ -1,0 +1,5 @@
+command_id: DADA.DA.222005
+test_cases:
+- expected_values:
+    RENAULT_12V_V: 13.52
+  response: 18DAF1DA056220050548

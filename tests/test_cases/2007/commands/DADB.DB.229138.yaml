@@ -1,0 +1,5 @@
+command_id: DADB.DB.229138
+test_cases:
+- expected_values:
+    RENAULT_PACK_T8: 0
+  response: 18DAF1DB056291380280

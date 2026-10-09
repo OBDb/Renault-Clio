@@ -1,0 +1,5 @@
+command_id: DADB.DB.229243
+test_cases:
+- expected_values:
+    RENAULT_E_CHG: 0
+  response: 18DAF1DB0762924300000000

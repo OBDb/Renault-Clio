@@ -1,0 +1,5 @@
+command_id: DADF.DF.227010
+test_cases:
+- expected_values:
+    RENAULT_STATOR_T2: -39.9043
+  response: 18DAF1DF07627010000031E0

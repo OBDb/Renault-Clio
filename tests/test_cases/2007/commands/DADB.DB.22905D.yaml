@@ -1,0 +1,5 @@
+command_id: DADB.DB.22905D
+test_cases:
+- expected_values:
+    RENAULT_CELL_V60: 3.62793
+  response: 18DAF1DB0562905D0E83

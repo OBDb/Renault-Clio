@@ -1,0 +1,8 @@
+command_id: 744.764.224368
+test_cases:
+- expected_values:
+    RENAULT_EVAP_T_SET: 6
+  response: 7640562436801CC
+- expected_values:
+    RENAULT_EVAP_T_SET: 8
+  response: '7640562436801E0'

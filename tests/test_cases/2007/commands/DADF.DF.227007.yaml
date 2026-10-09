@@ -1,0 +1,5 @@
+command_id: DADF.DF.227007
+test_cases:
+- expected_values:
+    RENAULT_STATOR_A_U: 500.8125
+  response: 18DAF1DF056270077D1A
