@@ -1,5 +1,5 @@
 command_id: 7E0.7E8.222047
 test_cases:
 - expected_values:
-    RENAULT_FIRST_START: 1
+    CLIO_FIRST_START: 1
   response: '7E80462204701'
