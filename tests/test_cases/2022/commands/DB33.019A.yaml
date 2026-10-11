@@ -7,7 +7,7 @@ test_cases:
     HEV_BATT_A_SUP: 1
     HEV_BATT_V: 249.20312
     HEV_BATT_V_SUP: 1
-    HEV_MODE: CSM
+    HEV_MODE: CDM
     HEV_MODE_SUP: 0
   response: |-
     18DAF1DA1008419A0E013E4D
