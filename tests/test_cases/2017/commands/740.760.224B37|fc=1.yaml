@@ -1,0 +1,8 @@
+command_id: 740.760.224B37|fc=1
+test_cases:
+- expected_values:
+    CLIO_ACCEL_LAT_OFFSET: 125
+  response: 76004624B377D
+- expected_values:
+    CLIO_ACCEL_LAT_OFFSET: 126
+  response: 76004624B377E

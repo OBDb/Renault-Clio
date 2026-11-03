@@ -1,0 +1,14 @@
+command_id: 740.760.224B42|fc=1
+test_cases:
+- expected_values:
+    CLIO_STEER_SPD: -398
+  response: 76005624B427E72
+- expected_values:
+    CLIO_STEER_SPD: -1
+  response: 76005624B427FFF
+- expected_values:
+    CLIO_STEER_SPD: 395
+  response: 76005624B42818B
+- expected_values:
+    CLIO_STEER_SPD: 32767
+  response: 76005624B42FFFF

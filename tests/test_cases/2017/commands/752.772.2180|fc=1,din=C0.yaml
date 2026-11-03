@@ -1,0 +1,9 @@
+command_id: 752.772.2180|fc=1,din=C0
+test_cases:
+- expected_values:
+    CLIO_VEH_TYPE: 0
+  response: |-
+    772101A618034303734
+    772215204414D523032
+    7722230343016301630
+    7722300280100008800

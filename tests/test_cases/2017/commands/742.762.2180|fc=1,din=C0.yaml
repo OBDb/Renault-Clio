@@ -1,0 +1,9 @@
+command_id: 742.762.2180|fc=1,din=C0
+test_cases:
+- expected_values:
+    CLIO_COMPUTER_CALIBRATION: 0
+  response: |-
+    762101A618033353238
+    7622152043233313539
+    76222343652014A0800
+    76223002102010088FF

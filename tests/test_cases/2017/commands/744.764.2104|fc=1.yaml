@@ -1,0 +1,5 @@
+command_id: 744.764.2104|fc=1
+test_cases:
+- expected_values:
+    CLIO_HEATING_RESISTOR: 24
+  response: '76403610418'

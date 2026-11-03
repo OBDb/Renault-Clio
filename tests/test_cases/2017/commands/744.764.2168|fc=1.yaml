@@ -1,0 +1,12 @@
+command_id: 744.764.2168|fc=1
+test_cases:
+- expected_values:
+    CLIO_REFRIGERANT_CIRCUIT_2: 0
+  response: |-
+    764100A616830800000
+    764210003FFFC800000
+- expected_values:
+    CLIO_REFRIGERANT_CIRCUIT_2: 17
+  response: |-
+    764100A616830800000
+    764211103FFFC800000

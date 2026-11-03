@@ -1,0 +1,11 @@
+command_id: 740.760.224B01|fc=1
+test_cases:
+- expected_values:
+    CLIO_FR_VSS: 0
+  response: 76005624B010000
+- expected_values:
+    CLIO_FR_VSS: 5805
+  response: 76005624B0116AD
+- expected_values:
+    CLIO_FR_VSS: 6480
+  response: 76005624B011950

@@ -1,0 +1,14 @@
+command_id: 740.760.224B06|fc=1
+test_cases:
+- expected_values:
+    CLIO_ODO: 161403.29
+  response: 76007624B0600F64829
+- expected_values:
+    CLIO_ODO: 161410.68
+  response: 76007624B0600F64B0C
+- expected_values:
+    CLIO_ODO: 161415.5
+  response: 76007624B0600F64CEE
+- expected_values:
+    CLIO_ODO: 161419.96
+  response: 76007624B0600F64EAC

@@ -1,0 +1,26 @@
+command_id: 740.760.224B0C|fc=1
+test_cases:
+- expected_values:
+    CLIO_YAW: -6
+  response: 76005624B0C7FFA
+- expected_values:
+    CLIO_YAW: -3
+  response: 76005624B0C7FFD
+- expected_values:
+    CLIO_YAW: -2
+  response: 76005624B0C7FFE
+- expected_values:
+    CLIO_YAW: -1
+  response: 76005624B0C7FFF
+- expected_values:
+    CLIO_YAW: 0
+  response: 76005624B0C8000
+- expected_values:
+    CLIO_YAW: 6
+  response: 76005624B0C8006
+- expected_values:
+    CLIO_YAW: 12
+  response: 76005624B0C800C
+- expected_values:
+    CLIO_YAW: 19
+  response: 76005624B0C8013
