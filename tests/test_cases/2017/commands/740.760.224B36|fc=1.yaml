@@ -1,6 +1,9 @@
 command_id: 740.760.224B36|fc=1
 test_cases:
 - expected_values:
+    CLIO_STEER_ANGLE_OFFSET: 137
+  response: 76004624B3689
+- expected_values:
     CLIO_STEER_ANGLE_OFFSET: 138
   response: 76004624B368A
 - expected_values:

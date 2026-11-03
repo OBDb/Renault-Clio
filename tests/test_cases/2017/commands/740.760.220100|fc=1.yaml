@@ -4,8 +4,8 @@ test_cases:
     CLIO_STEER_ANGLE: -3231
   response: '760056201007361'
 - expected_values:
-    CLIO_STEER_ANGLE: 59
-  response: 76005620100803B
+    CLIO_STEER_ANGLE: 3
+  response: '760056201008003'
 - expected_values:
     CLIO_STEER_ANGLE: 32767
   response: 76005620100FFFF
