@@ -7,5 +7,5 @@ test_cases:
     CLIO_RR_VSS: 5119
   response: 76005624B0313FF
 - expected_values:
-    CLIO_RR_VSS: 6396
-  response: 76005624B0318FC
+    CLIO_RR_VSS: 8398
+  response: 76005624B0320CE

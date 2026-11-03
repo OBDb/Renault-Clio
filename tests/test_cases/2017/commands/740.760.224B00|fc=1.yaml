@@ -4,8 +4,8 @@ test_cases:
     CLIO_FL_VSS: 0
   response: 76005624B000000
 - expected_values:
-    CLIO_FL_VSS: 5333
-  response: 76005624B0014D5
+    CLIO_FL_VSS: 2807
+  response: 76005624B000AF7
 - expected_values:
-    CLIO_FL_VSS: 6491
-  response: 76005624B00195B
+    CLIO_FL_VSS: 8263
+  response: 76005624B002047

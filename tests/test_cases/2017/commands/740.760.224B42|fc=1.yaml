@@ -10,5 +10,8 @@ test_cases:
     CLIO_STEER_SPD: 395
   response: 76005624B42818B
 - expected_values:
+    CLIO_STEER_SPD: 1198
+  response: 76005624B4284AE
+- expected_values:
     CLIO_STEER_SPD: 32767
   response: 76005624B42FFFF

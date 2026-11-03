@@ -7,5 +7,5 @@ test_cases:
     CLIO_VSS_740: 2031
   response: 76005624B0407EF
 - expected_values:
-    CLIO_VSS_740: 6450
-  response: 76005624B041932
+    CLIO_VSS_740: 8044
+  response: 76005624B041F6C

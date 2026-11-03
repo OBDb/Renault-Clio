@@ -1,20 +1,8 @@
 command_id: 740.760.224B0B|fc=1
 test_cases:
 - expected_values:
-    CLIO_ACCEL_LAT: 126
-  response: 76004624B0B7E
+    CLIO_ACCEL_LAT: 122
+  response: 76004624B0B7A
 - expected_values:
-    CLIO_ACCEL_LAT: 127
-  response: 76004624B0B7F
-- expected_values:
-    CLIO_ACCEL_LAT: 128
-  response: 76004624B0B80
-- expected_values:
-    CLIO_ACCEL_LAT: 129
-  response: 76004624B0B81
-- expected_values:
-    CLIO_ACCEL_LAT: 131
-  response: 76004624B0B83
-- expected_values:
-    CLIO_ACCEL_LAT: 135
-  response: 76004624B0B87
+    CLIO_ACCEL_LAT: 140
+  response: 76004624B0B8C

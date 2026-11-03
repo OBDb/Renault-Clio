@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     CLIO_BRAKE_P_MC: 1
   response: 76004624B0E01
+- expected_values:
+    CLIO_BRAKE_P_MC: 2
+  response: 76004624B0E02

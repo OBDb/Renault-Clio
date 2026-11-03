@@ -1,5 +1,8 @@
 command_id: 740.760.224B39|fc=1
 test_cases:
 - expected_values:
+    CLIO_P_SNS_OFFSET: 124
+  response: 76004624B397C
+- expected_values:
     CLIO_P_SNS_OFFSET: 125
   response: 76004624B397D
