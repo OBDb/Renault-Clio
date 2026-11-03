@@ -1,0 +1,5 @@
+command_id: 743.763.220201
+test_cases:
+- expected_values:
+    CLIO_OIL_CHANGE_INTERVAL_KM: 18640.7767
+  response: '7630762020175300168'

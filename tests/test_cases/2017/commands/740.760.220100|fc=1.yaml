@@ -1,0 +1,11 @@
+command_id: 740.760.220100|fc=1
+test_cases:
+- expected_values:
+    CLIO_STEER_ANGLE: -3231
+  response: '760056201007361'
+- expected_values:
+    CLIO_STEER_ANGLE: 59
+  response: 76005620100803B
+- expected_values:
+    CLIO_STEER_ANGLE: 32767
+  response: 76005620100FFFF

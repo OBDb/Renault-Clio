@@ -1,0 +1,5 @@
+command_id: 743.763.220106
+test_cases:
+- expected_values:
+    CLIO_ADAC_DISPLAY_TYPE: 0
+  response: '7630462010600'

@@ -1,0 +1,5 @@
+command_id: 744.764.210B|fc=1
+test_cases:
+- expected_values:
+    CLIO_TOXICITY_SENS: 2
+  response: 76403610B02

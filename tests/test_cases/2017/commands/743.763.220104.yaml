@@ -1,0 +1,5 @@
+command_id: 743.763.220104
+test_cases:
+- expected_values:
+    CLIO_DIST_UNITS: 0
+  response: '7630462010400'

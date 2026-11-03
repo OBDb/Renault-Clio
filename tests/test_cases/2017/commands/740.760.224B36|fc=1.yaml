@@ -1,0 +1,17 @@
+command_id: 740.760.224B36|fc=1
+test_cases:
+- expected_values:
+    CLIO_STEER_ANGLE_OFFSET: 138
+  response: 76004624B368A
+- expected_values:
+    CLIO_STEER_ANGLE_OFFSET: 139
+  response: 76004624B368B
+- expected_values:
+    CLIO_STEER_ANGLE_OFFSET: 140
+  response: 76004624B368C
+- expected_values:
+    CLIO_STEER_ANGLE_OFFSET: 141
+  response: 76004624B368D
+- expected_values:
+    CLIO_STEER_ANGLE_OFFSET: 142
+  response: 76004624B368E

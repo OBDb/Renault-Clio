@@ -1,0 +1,8 @@
+command_id: 740.760.22012F|fc=1
+test_cases:
+- expected_values:
+    CLIO_ECU_V: 13.3
+  response: 7600462012F85
+- expected_values:
+    CLIO_ECU_V: 13.4
+  response: 7600462012F86

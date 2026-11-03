@@ -1,0 +1,10 @@
+command_id: 745.765.2110|fc=1,din=C0
+test_cases:
+- expected_values:
+    CLIO_AFTER_IGN_PRESENT: 0
+    CLIO_DRIVER_S_DOOR: 0
+    CLIO_HAZARD_WARN_LIGHTS: 0
+    CLIO_LEFT_INDICATOR_REQ: 1
+    CLIO_PASSENGER_S_DOOR: 0
+    CLIO_RIGHT_INDICATOR_REQ: 0
+  response: '76503611014'

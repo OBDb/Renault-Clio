@@ -4,31 +4,31 @@
     {"id": "CLIO_COMPUTER_SUP_V_740", "path": "Battery", "fmt": {          "len": 8, "max": 20.4, "mul": 2, "div": 25, "unit": "volts"  }, "name": "Computer supply voltage"},
     {"id": "CLIO_BRAKE_PEDAL_740",    "path": "Control", "fmt": {"bix": 8, "len": 8, "max": 255,                       "unit": "scalar" }, "name": "Brake pedal"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "0100"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "0100"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_STEER_ANGLE", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "add": -32768, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "012F"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "012F"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_ECU_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Computer supply voltage"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B00"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B00"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_FL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "kilometersPerHour" }, "name": "FL wheel speed"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B01"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B01"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_FR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "kilometersPerHour" }, "name": "FR wheel speed"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B02"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B02"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_RL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "kilometersPerHour" }, "name": "RL wheel speed"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B03"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B03"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_RR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "kilometersPerHour" }, "name": "RR wheel speed"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B04"}, "freq": 0.25, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B04"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_VSS_740", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
@@ -36,11 +36,11 @@
   "signals": [
     {"id": "CLIO_FAULT_CNT", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fault counter"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B06"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B06"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_ODO", "path": "Trips", "fmt": { "len": 32, "max": 42949672.950000003, "div": 100, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B07"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B07"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_ACCEL_LONG", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Acceleration, longitudinal"}
   ]},
@@ -56,11 +56,11 @@
   "signals": [
     {"id": "CLIO_FAULT_DIST_LAST", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Mileage since last fault"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B0B"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B0B"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_ACCEL_LAT", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "gravity" }, "name": "Acceleration, lateral"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B0C"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B0C"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_YAW", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "add": -32768, "unit": "unknown" }, "name": "Yaw angle"}
   ]},
@@ -68,7 +68,7 @@
   "signals": [
     {"id": "CLIO_TRACTION_CTRL_ON_OFF", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Traction control on/off button"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B0E"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B0E"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_BRAKE_P_MC", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "bars" }, "name": "Brake pressure, master cylinder"}
   ]},
@@ -76,11 +76,11 @@
   "signals": [
     {"id": "CLIO_HILL_DESCENT_CTRL", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Hill descent control switch"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "dbg": true, "cmd": {"22": "4B10"}, "freq": 0.25,
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B10"}, "freq": 0.25, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_BRAKE_LIGHTS_ON_REQ", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake lights on request"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B11"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B11"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_BRAKE_PEDAL", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake pedal"}
   ]},
@@ -96,11 +96,11 @@
   "signals": [
     {"id": "CLIO_HYD_T", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Hydraulic unit temperature"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B1A"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B1A"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_VEH", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Vehicle status"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B24"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B24"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_SPEEDO_IDX", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "millimeters" }, "name": "Speedometer index"}
   ]},
@@ -116,11 +116,11 @@
   "signals": [
     {"id": "CLIO_TRAILER_STAB", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Trailer stability"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B31"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B31"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_HILL_START", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Hill start assist"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B35"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B35"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_EBD",              "path": "Engine",  "fmt": {           "len": 1, "max": 1, "unit": "scalar" }, "name": "Electronic brake force distribution"},
     {"id": "CLIO_EBD_WARN",         "path": "Engine",  "fmt": {"bix": 1,  "len": 1, "max": 1, "unit": "scalar" }, "name": "Electronic brake force distribution, warning"},
@@ -143,23 +143,23 @@
     {"id": "CLIO_BRAKE_DIVE",       "path": "Control", "fmt": {"bix": 32, "len": 1, "max": 1, "unit": "scalar" }, "name": "Brake dive limiter"},
     {"id": "CLIO_BRAKE_DIVE_WARN",  "path": "Control", "fmt": {"bix": 33, "len": 1, "max": 1, "unit": "scalar" }, "name": "Brake dive limiter, warning"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B36"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B36"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_STEER_ANGLE_OFFSET", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "degrees" }, "name": "Steering wheel angle, offset"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B37"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B37"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_ACCEL_LAT_OFFSET", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "gravity" }, "name": "Acceleration offset, lateral"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B38"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B38"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_ACCEL_LONG_OFFSET", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Acceleration offset, longitudinal"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B39"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B39"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_P_SNS_OFFSET", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "bars" }, "name": "Pressure sensor offset"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B3C"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B3C"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_DRIVE_TYPE", "path": "Drivetrain", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Driving type"}
   ]},
@@ -167,7 +167,7 @@
   "signals": [
     {"id": "CLIO_SUPPLIER_NUM", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Supplier number"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B42"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "4B42"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "CLIO_STEER_SPD", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "add": -32768, "unit": "unknown" }, "name": "Steering wheel speed"}
   ]},
@@ -238,7 +238,7 @@
   "signals": [
     {"id": "CLIO_ELECTRICAL_DAMPER", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Electrical damper AT stop"}
   ]},
-{ "hdr": "742", "rax": "762", "fcm1": true, "din": "C0", "dbg": true, "cmd": {"21": "80"}, "freq": 1,
+{ "hdr": "742", "rax": "762", "fcm1": true, "din": "C0", "cmd": {"21": "80"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_COMPUTER_CALIBRATION", "path": "Engine", "fmt": {"bix": 144, "len": 8, "max": 255, "unit": "scalar" }, "name": "Computer calibration"}
   ]},
@@ -282,7 +282,7 @@
   "signals": [
     {"id": "CLIO_OIL_CHANGE_RANGE_CURRENT", "path": "Trips", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil change range/current value in months"}
   ]},
-{ "hdr": "743", "rax": "763", "dbg": true, "cmd": {"22": "0104"}, "freq": 30,
+{ "hdr": "743", "rax": "763", "cmd": {"22": "0104"}, "freq": 30, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_DIST_UNITS", "path": "Trips", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Distance units"}
   ]},
@@ -290,15 +290,15 @@
   "signals": [
     {"id": "CLIO_CONS_MEASUREMENT", "path": "Engine", "fmt": {"bix": 6, "len": 2, "max": 3, "unit": "scalar" }, "name": "Consumption measurement units"}
   ]},
-{ "hdr": "743", "rax": "763", "dbg": true, "cmd": {"22": "0106"}, "freq": 1,
+{ "hdr": "743", "rax": "763", "cmd": {"22": "0106"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_ADAC_DISPLAY_TYPE", "path": "Engine", "fmt": {"bix": 6, "len": 2, "max": 3, "unit": "scalar" }, "name": "Trip computer display type"}
   ]},
-{ "hdr": "743", "rax": "763", "dbg": true, "cmd": {"22": "0201"}, "freq": 1,
+{ "hdr": "743", "rax": "763", "cmd": {"22": "0201"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_OIL_CHANGE_INTERVAL_KM", "path": "Engine", "fmt": { "len": 16, "max": 40720, "mul": 64, "div": 103, "unit": "miles" }, "name": "Oil change interval in km"}
   ]},
-{ "hdr": "743", "rax": "763", "dbg": true, "cmd": {"22": "0202"}, "freq": 1,
+{ "hdr": "743", "rax": "763", "cmd": {"22": "0202"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_OIL_CHANGE_FREQUENCY", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Oil change frequency in days"}
   ]},
@@ -338,15 +338,15 @@
   "signals": [
     {"id": "CLIO_FLI_DISPLAYED", "path": "Fuel", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "liters" }, "name": "Fuel level displayed"}
   ]},
-{ "hdr": "744", "rax": "764", "fcm1": true, "dbg": true, "cmd": {"21": "04"}, "freq": 1,
+{ "hdr": "744", "rax": "764", "fcm1": true, "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_HEATING_RESISTOR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Heating resistor type"}
   ]},
-{ "hdr": "744", "rax": "764", "fcm1": true, "dbg": true, "cmd": {"21": "0B"}, "freq": 1,
+{ "hdr": "744", "rax": "764", "fcm1": true, "cmd": {"21": "0B"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_TOXICITY_SENS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Toxicity sensor"}
   ]},
-{ "hdr": "744", "rax": "764", "fcm1": true, "dbg": true, "cmd": {"21": "21"}, "freq": 5,
+{ "hdr": "744", "rax": "764", "fcm1": true, "cmd": {"21": "21"}, "freq": 5, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_EVAPORATOR_T",         "path": "Engine",   "fmt": {            "len": 16, "max": 65535, "unit": "celsius" }, "name": "Evaporator temperature"},
     {"id": "CLIO_HUMIDITY",             "path": "Engine",   "fmt": {"bix": 16,  "len": 16, "max": 65535, "unit": "percent" }, "name": "Humidity"},
@@ -354,34 +354,34 @@
     {"id": "CLIO_T_COOLING_SYSTEM",     "path": "Battery",  "fmt": {"bix": 128, "len": 16, "max": 65535, "unit": "celsius" }, "name": "Temperature. cooling system traction battery"},
     {"id": "CLIO_FAN_SPD",              "path": "Movement", "fmt": {"bix": 144, "len": 8,  "max": 255,   "unit": "percent" }, "name": "Fan speed"}
   ]},
-{ "hdr": "744", "rax": "764", "fcm1": true, "dbg": true, "cmd": {"21": "27"}, "freq": 1,
+{ "hdr": "744", "rax": "764", "fcm1": true, "cmd": {"21": "27"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_FOOT_DISTRIBUTION",   "path": "Engine", "fmt": {           "len": 8, "max": 255, "unit": "percent" }, "name": "Foot distribution motor set point"},
     {"id": "CLIO_RECIRCULATION_MOTOR", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "percent" }, "name": "Recirculation motor set point"},
     {"id": "CLIO_FOOTWELL_VENT",       "path": "Engine", "fmt": {"bix": 48, "len": 8, "max": 255, "unit": "percent" }, "name": "Foot well and vent distribution flap position"},
     {"id": "CLIO_RECYCLING_FLAP_POS",  "path": "Engine", "fmt": {"bix": 72, "len": 8, "max": 255, "unit": "percent" }, "name": "Recycling flap position"}
   ]},
-{ "hdr": "744", "rax": "764", "fcm1": true, "dbg": true, "cmd": {"21": "43"}, "freq": 5,
+{ "hdr": "744", "rax": "764", "fcm1": true, "cmd": {"21": "43"}, "freq": 5, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_CLIMATE_CTRL_POWER", "path": "Engine", "fmt": {"bix": 72,  "len": 8,  "max": 255,   "unit": "watts"   }, "name": "Climate control power consumed"},
     {"id": "CLIO_EXTERNAL_T_744",     "path": "Engine", "fmt": {"bix": 88,  "len": 16, "max": 65535, "unit": "celsius" }, "name": "External temperature"},
     {"id": "CLIO_REFRIGERANT_P_744",  "path": "Engine", "fmt": {"bix": 112, "len": 16, "max": 65535, "unit": "bars"    }, "name": "Refrigerant pressure"},
     {"id": "CLIO_SUNSHINE",           "path": "Engine", "fmt": {"bix": 160, "len": 16, "max": 65535, "unit": "scalar"  }, "name": "Sunshine"}
   ]},
-{ "hdr": "744", "rax": "764", "fcm1": true, "dbg": true, "cmd": {"21": "44"}, "freq": 1,
+{ "hdr": "744", "rax": "764", "fcm1": true, "cmd": {"21": "44"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_AC_MODE", "path": "Engine", "fmt": {"bix": 40, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Air conditioning mode"}
   ]},
-{ "hdr": "744", "rax": "764", "fcm1": true, "dbg": true, "cmd": {"21": "67"}, "freq": 5,
+{ "hdr": "744", "rax": "764", "fcm1": true, "cmd": {"21": "67"}, "freq": 5, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_COMP_SPD_REFERENCE",  "path": "Movement", "fmt": {"bix": 8,  "len": 16, "max": 65535, "unit": "rpm"     }, "name": "Compressor speed reference"},
     {"id": "CLIO_REFRIGERANT_INLET_T", "path": "Engine",   "fmt": {"bix": 24, "len": 16, "max": 65535, "unit": "celsius" }, "name": "Refrigerant inlet temperature"}
   ]},
-{ "hdr": "744", "rax": "764", "fcm1": true, "dbg": true, "cmd": {"21": "68"}, "freq": 1,
+{ "hdr": "744", "rax": "764", "fcm1": true, "cmd": {"21": "68"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_REFRIGERANT_CIRCUIT_2", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Refrigerant circuit 2-way solenoid valve"}
   ]},
-{ "hdr": "745", "rax": "765", "fcm1": true, "din": "C0", "dbg": true, "cmd": {"21": "10"}, "freq": 5,
+{ "hdr": "745", "rax": "765", "fcm1": true, "din": "C0", "cmd": {"21": "10"}, "freq": 5, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_AFTER_IGN_PRESENT",    "path": "Engine",   "fmt": {            "len": 1,  "max": 1,                            "unit": "offon"             }, "name": "+ after ignition present"},
     {"id": "CLIO_HAZARD_WARN_LIGHTS",   "path": "Engine",   "fmt": {"bix": 1,   "len": 1,  "max": 1,                            "unit": "offon"             }, "name": "Hazard warning lights button"},
@@ -408,7 +408,7 @@
     {"id": "CLIO_BRAKE_PEDAL_POS",      "path": "Control",  "fmt": {"bix": 186, "len": 1,  "max": 1,                            "unit": "scalar"            }, "name": "Brake pedal position"},
     {"id": "CLIO_HEADLIGHT_ON_REQ",     "path": "Engine",   "fmt": {"bix": 240, "len": 8,  "max": 255,                          "unit": "scalar"            }, "name": "Headlight on request by brightness sensor"}
   ]},
-{ "hdr": "745", "rax": "765", "fcm1": true, "din": "C0", "dbg": true, "cmd": {"21": "13"}, "freq": 1,
+{ "hdr": "745", "rax": "765", "fcm1": true, "din": "C0", "cmd": {"21": "13"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_BRIEF_PRESS_DOORS",    "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Brief press doors and boot close button"},
     {"id": "CLIO_DEADLOCKING",          "path": "Engine", "fmt": {"bix": 80, "len": 8, "max": 255, "unit": "scalar" }, "name": "Deadlocking"},
@@ -430,15 +430,15 @@
     {"id": "CLIO_PASS_COMP_HEATING_2",    "path": "Engine", "fmt": {"bix": 70, "len": 1, "max": 1,                           "unit": "scalar"  }, "name": "Pass comp. heating relay 2 control"},
     {"id": "CLIO_PASS_COMP_HEATING_1",    "path": "Engine", "fmt": {"bix": 71, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "Pass comp. heating relay 1 control"}
   ]},
-{ "hdr": "74D", "rax": "76D", "fcm1": true, "din": "C0", "dbg": true, "cmd": {"21": "02"}, "freq": 1,
+{ "hdr": "74D", "rax": "76D", "fcm1": true, "din": "C0", "cmd": {"21": "02"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_ENG_TYPE", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine type"}
   ]},
-{ "hdr": "74D", "rax": "76D", "fcm1": true, "din": "C0", "dbg": true, "cmd": {"21": "03"}, "freq": 1,
+{ "hdr": "74D", "rax": "76D", "fcm1": true, "din": "C0", "cmd": {"21": "03"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_BAT_FAULT_FINDING", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 107, "min": -20, "div": 2, "add": -20, "unit": "celsius" }, "name": "Battery fault finding"}
   ]},
-{ "hdr": "74D", "rax": "76D", "fcm1": true, "din": "C0", "dbg": true, "cmd": {"21": "10"}, "freq": 5,
+{ "hdr": "74D", "rax": "76D", "fcm1": true, "din": "C0", "cmd": {"21": "10"}, "freq": 5, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_ALTERNATOR_CHG",       "path": "Battery",      "fmt": {            "len": 8, "max": 99.6,  "mul": 25, "div": 64, "unit": "percent" }, "name": "Alternator charge information"},
     {"id": "CLIO_MANUAL_GEARBOX_GEAR",  "path": "Transmission", "fmt": {"bix": 8,   "len": 8, "max": 255,                         "unit": "scalar"  }, "name": "Manual gearbox gear lever position"},
@@ -460,7 +460,7 @@
   "signals": [
     {"id": "CLIO_BAT_V_AFTER_REST", "path": "Battery", "fmt": {"bix": 40, "len": 8, "max": 15.93, "div": 16, "unit": "volts" }, "name": "Battery voltage after rest"}
   ]},
-{ "hdr": "752", "rax": "772", "fcm1": true, "din": "C0", "dbg": true, "cmd": {"21": "02"}, "freq": 0.25,
+{ "hdr": "752", "rax": "772", "fcm1": true, "din": "C0", "cmd": {"21": "02"}, "freq": 0.25, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_COMP_LOCKED",               "path": "Engine", "fmt": {"bix": 4,  "len": 1, "max": 1,   "unit": "offon"  }, "name": "Comp. locked"},
     {"id": "CLIO_IMPACT_DETECTED",           "path": "Engine", "fmt": {"bix": 5,  "len": 1, "max": 1,   "unit": "offon"  }, "name": "Impact detected"},
@@ -482,14 +482,14 @@
     {"id": "CLIO_PASSENGER_AIR_BAG_LOCKING_MODE", "path": "Engine", "fmt": {"bix": 56,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Passenger air bag locking mode"},
     {"id": "CLIO_PASSENGER_PRESENCE_DETECTED",    "path": "Engine", "fmt": {"bix": 128, "len": 8, "max": 255, "unit": "scalar" }, "name": "Passenger presence detected"}
   ]},
-{ "hdr": "752", "rax": "772", "fcm1": true, "din": "C0", "dbg": true, "cmd": {"21": "06"}, "freq": 5,
+{ "hdr": "752", "rax": "772", "fcm1": true, "din": "C0", "cmd": {"21": "06"}, "freq": 5, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_COMPUTER_SUP_V_752",        "path": "Battery",   "fmt": {"bix": 160, "len": 8, "max": 25.75, "mul": 101, "div": 1000, "unit": "volts"  }, "name": "Computer supply voltage"},
     {"id": "CLIO_DRIVER_S_SEAT_BELT_SWITCH", "path": "Seatbelts", "fmt": {"bix": 168, "len": 8, "max": 255,                            "unit": "scalar" }, "name": "Driver's seat belt switch"},
     {"id": "CLIO_PASSENGER_SEAT_BELT",       "path": "Seatbelts", "fmt": {"bix": 176, "len": 8, "max": 255,                            "unit": "scalar" }, "name": "Passenger seat belt switch"},
     {"id": "CLIO_PASSENGER_PRESENCE",        "path": "Engine",    "fmt": {"bix": 184, "len": 8, "max": 255,                            "unit": "scalar" }, "name": "Passenger presence detected"}
   ]},
-{ "hdr": "752", "rax": "772", "fcm1": true, "din": "C0", "dbg": true, "cmd": {"21": "08"}, "freq": 1,
+{ "hdr": "752", "rax": "772", "fcm1": true, "din": "C0", "cmd": {"21": "08"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_DRIVER_FRONT_AIR_BAG_CIRCUIT_2",           "path": "Engine",    "fmt": {           "len": 1, "max": 1,   "unit": "offon"  }, "name": "Driver front air bag circuit 2"},
     {"id": "CLIO_DRIVER_FRONT_AIR_BAG_CIRCUIT_1",           "path": "Engine",    "fmt": {"bix": 1,  "len": 1, "max": 1,   "unit": "offon"  }, "name": "Driver front air bag circuit 1"},
@@ -506,7 +506,7 @@
     {"id": "CLIO_REAR_INERTIA_REELS_752",                   "path": "Engine",    "fmt": {"bix": 17, "len": 1, "max": 1,   "unit": "offon"  }, "name": "Rear inertia reels"},
     {"id": "CLIO_FRONT_SEAT_BELT_RETRACTORS",               "path": "Seatbelts", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "scalar" }, "name": "Front seat belt retractors"}
   ]},
-{ "hdr": "752", "rax": "772", "fcm1": true, "din": "C0", "dbg": true, "cmd": {"21": "09"}, "freq": 1,
+{ "hdr": "752", "rax": "772", "fcm1": true, "din": "C0", "cmd": {"21": "09"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_PASSENGER_S_LATERAL",               "path": "Engine", "fmt": {"bix": 8,  "len": 1, "max": 1, "unit": "offon"  }, "name": "Passenger's lateral sensor"},
     {"id": "CLIO_DRIVER_S_LATERAL",                  "path": "Engine", "fmt": {"bix": 9,  "len": 1, "max": 1, "unit": "scalar" }, "name": "Driver's lateral sensor"},
@@ -534,7 +534,7 @@
     {"id": "CLIO_REAR_INERTIA_REELS",        "path": "Engine",    "fmt": {"bix": 17, "len": 1, "max": 1,   "unit": "offon"  }, "name": "Rear inertia reels"},
     {"id": "CLIO_FRONT_SEAT_BELT",           "path": "Seatbelts", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "scalar" }, "name": "Front seat belt retractors"}
   ]},
-{ "hdr": "752", "rax": "772", "fcm1": true, "din": "C0", "dbg": true, "cmd": {"21": "80"}, "freq": 1,
+{ "hdr": "752", "rax": "772", "fcm1": true, "din": "C0", "cmd": {"21": "80"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "CLIO_VEH_TYPE", "path": "Engine", "fmt": {"bix": 168, "len": 8, "max": 255, "unit": "scalar" }, "name": "Vehicle type"}
   ]},

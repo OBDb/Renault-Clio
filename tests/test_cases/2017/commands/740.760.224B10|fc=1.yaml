@@ -1,0 +1,5 @@
+command_id: 740.760.224B10|fc=1
+test_cases:
+- expected_values:
+    CLIO_BRAKE_LIGHTS_ON_REQ: 0
+  response: 76004624B1000
