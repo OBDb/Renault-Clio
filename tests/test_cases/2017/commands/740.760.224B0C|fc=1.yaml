@@ -1,8 +1,8 @@
 command_id: 740.760.224B0C|fc=1
 test_cases:
 - expected_values:
-    CLIO_YAW: -38
-  response: 76005624B0C7FDA
+    CLIO_YAW: -66
+  response: 76005624B0C7FBE
 - expected_values:
     CLIO_YAW: -1
   response: 76005624B0C7FFF
