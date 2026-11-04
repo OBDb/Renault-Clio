@@ -10,5 +10,5 @@ test_cases:
     CLIO_ODO: 161459.17
   response: 76007624B0600F65DFD
 - expected_values:
-    CLIO_ODO: 161460.46
-  response: 76007624B0600F65E7E
+    CLIO_ODO: 161465.23
+  response: 76007624B0600F6605B
