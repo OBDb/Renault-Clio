@@ -1,8 +1,11 @@
 command_id: 743.763.220202
 test_cases:
 - expected_values:
+    CLIO_OIL_CHANGE_FREQUENCY: 26358
+  response: 7630762020266F6011B
+- expected_values:
+    CLIO_OIL_CHANGE_FREQUENCY: 26359
+  response: 7630762020266F7011B
+- expected_values:
     CLIO_OIL_CHANGE_FREQUENCY: 26371
   response: 763076202026703011B
-- expected_values:
-    CLIO_OIL_CHANGE_FREQUENCY: 26407
-  response: 763076202026727011B

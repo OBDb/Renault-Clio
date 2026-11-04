@@ -7,8 +7,8 @@ test_cases:
     CLIO_ODO: 161410.68
   response: 76007624B0600F64B0C
 - expected_values:
-    CLIO_ODO: 161415.5
-  response: 76007624B0600F64CEE
+    CLIO_ODO: 161451.48
+  response: 76007624B0600F65AFC
 - expected_values:
-    CLIO_ODO: 161444.01
-  response: 76007624B0600F65811
+    CLIO_ODO: 161451.91
+  response: 76007624B0600F65B27
